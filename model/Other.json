@@ -1,0 +1,55 @@
+{
+  "id": {
+    "datatype": "int(10) auto_increment",
+    "header":   "序號",
+    "show":     "",
+    "label":    "",
+    "case":     "null"
+  },
+  "othergrp": {
+    "datatype": "text",
+    "header":   "功能類別",
+    "show":     "功能類別",
+    "label":    "功能類別",
+    "case":     "othergrp"
+  },
+  "ckeditor": {
+    "datatype": "text",
+    "header":   "",
+    "show":     "內容",
+    "label":    "內容",
+    "case":     "ckeditor"
+  },
+  "status": {
+    "datatype": "int(1)",
+    "header":   "狀態",
+    "show":     "狀態",
+    "label":    "",
+    "case":     "status"
+  },
+  "createAt": {
+    "datatype": "datetime",
+    "header":   "",
+    "show":     "建立時間",
+    "label":    "",
+    "case":     "createAt"
+  },
+  "updateAt": {
+    "datatype": "datetime",
+    "header":   "",
+    "show":     "更新時間",
+    "label":    "",
+    "case":     "updateAt"
+  },
+  "sort": {
+    "datatype": "int(1)",
+    "header":   "排序",
+    "show":     "",
+    "label":    "",
+    "case":     "sort"
+  },
+
+  "0": "Other",
+  "1": "其他管理",
+  "2": "file word"
+}

@@ -1,0 +1,69 @@
+{
+  "id": {
+    "datatype": "int(10) auto_increment",
+    "header":   "序號",
+    "show":     "",
+    "label":    "",
+    "case":     "null"
+  },
+  "username": {
+    "datatype": "text",
+    "header":   "姓名",
+    "show":     "姓名",
+    "label":    "姓名",
+    "case":     "text"
+  },
+  "account": {
+    "datatype": "text",
+    "header":   "帳號",
+    "show":     "帳號",
+    "label":    "帳號",
+    "case":     "text"
+  },
+  "password": {
+    "datatype": "text",
+    "header":   "",
+    "show":     "",
+    "label":    "密碼",
+    "case":     "password"
+  },
+  "authgrp": {
+    "datatype": "text",
+    "header":   "",
+    "show":     "權限",
+    "label":    "權限",
+    "case":     "authgrp"
+  },
+  "status": {
+    "datatype": "int(1)",
+    "header":   "狀態",
+    "show":     "狀態",
+    "label":    "",
+    "case":     "status"
+  },
+  "createAt": {
+    "datatype": "datetime",
+    "header":   "",
+    "show":     "建立時間",
+    "label":    "",
+    "case":     "createAt"
+  },
+  "updateAt": {
+    "datatype": "datetime",
+    "header":   "",
+    "show":     "更新時間",
+    "label":    "",
+    "case":     "updateAt"
+  },
+  "sort": {
+    "datatype": "int(1)",
+    "header":   "排序",
+    "show":     "",
+    "label":    "",
+    "case":     "sort"
+  },
+  
+  "0": "Admin",
+  "1": "權限管理",
+  "2": "user secret"
+}

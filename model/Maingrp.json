@@ -1,0 +1,54 @@
+{
+  "id": {
+    "datatype": "int(10) auto_increment",
+    "header":   "序號",
+    "show":     "",
+    "label":    "",
+    "case":     "null"
+  },
+  "name": {
+    "datatype": "text",
+    "header":   "商品類名",
+    "show":     "商品類名",
+    "label":    "商品類名",
+    "case":     "text"
+  },
+  "en_name": {
+    "datatype": "text",
+    "header":   "",
+    "show":     "商品類名(英)",
+    "label":    "商品類名(英)",
+    "case":     "text"
+  },
+  "status": {
+    "datatype": "int(1)",
+    "header":   "狀態",
+    "show":     "狀態",
+    "label":    "",
+    "case":     "status"
+  },
+  "createAt": {
+    "datatype": "datetime",
+    "header":   "",
+    "show":     "建立時間",
+    "label":    "",
+    "case":     "createAt"
+  },
+  "updateAt": {
+    "datatype": "datetime",
+    "header":   "",
+    "show":     "更新時間",
+    "label":    "",
+    "case":     "updateAt"
+  },
+  "sort": {
+    "datatype": "int(1)",
+    "header":   "排序",
+    "show":     "",
+    "label":    "",
+    "case":     "sort"
+  },
+  "0": "Maingrp",
+  "1": "商品主類",
+  "2": "star"
+}

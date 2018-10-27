@@ -1,0 +1,68 @@
+{
+  "id": {
+    "datatype": "int(10) auto_increment",
+    "header":   "序號",
+    "show":     "",
+    "label":    "",
+    "case":     "null"
+  },
+  "title": {
+    "datatype": "text",
+    "header":   "標題",
+    "show":     "標題",
+    "label":    "輸入標題",
+    "case":     "text"
+  },
+  "en_title": {
+    "datatype": "text",
+    "header":   "",
+    "show":     "標題(英)",
+    "label":    "輸入標題(英)",
+    "case":     "text"
+  },
+  "ckeditor": {
+    "datatype": "text",
+    "header":   "",
+    "show":     "內容",
+    "label":    "消息內容",
+    "case":     "text"
+  },
+  "en_ckeditor": {
+    "datatype": "text",
+    "header":   "",
+    "show":     "內容(英)",
+    "label":    "消息內容(英)",
+    "case":     "text"
+  },
+  "status": {
+    "datatype": "int(1)",
+    "header":   "狀態",
+    "show":     "狀態",
+    "label":    "",
+    "case":     "status"
+  },
+  "createAt": {
+    "datatype": "datetime",
+    "header":   "",
+    "show":     "建立時間",
+    "label":    "",
+    "case":     "createAt"
+  },
+  "updateAt": {
+    "datatype": "datetime",
+    "header":   "",
+    "show":     "更新時間",
+    "label":    "",
+    "case":     "updateAt"
+  },
+  "sort": {
+    "datatype": "int(1)",
+    "header":   "排序",
+    "show":     "",
+    "label":    "",
+    "case":     "sort"
+  },
+  "0": "News",
+  "1": "最新消息",
+  "2": "newspaper"
+}

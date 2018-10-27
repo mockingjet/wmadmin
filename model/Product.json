@@ -1,0 +1,82 @@
+{
+  "id": {
+    "datatype": "int(10) auto_increment",
+    "header":   "序號",
+    "show":     "",
+    "label":    "",
+    "case":     "null"
+  },
+  "name": {
+    "datatype": "text",
+    "header":   "產品名稱",
+    "show":     "產品名稱",
+    "label":    "產品名稱",
+    "case":     "text"
+  },
+  "en_name": {
+    "datatype": "text",
+    "header":   "",
+    "show":     "產品名稱(英)",
+    "label":    "產品名稱(英)",
+    "case":     "text"
+  },
+  "maingrp": {
+    "datatype": "text",
+    "header":   "產品類別",
+    "show":     "產品類別",
+    "label":    "產品類別",
+    "case":     "maingrp"
+  },
+  "imgfile": {
+    "datatype": "text",
+    "header":   "產品圖片",
+    "show":     "產品圖片",
+    "label":    "選擇圖片",
+    "case":     "imgupload"
+  },
+  "ckeditor": {
+    "datatype": "text",
+    "header":   "",
+    "show":     "產品內容",
+    "label":    "產品內容",
+    "case":     "ckeditor"
+  },
+  "en_ckeditor": {
+    "datatype": "text",
+    "header":   "",
+    "show":     "產品內容(英)",
+    "label":    "產品內容(英)",
+    "case":     "ckeditor"
+  },
+  "status": {
+    "datatype": "int(1)",
+    "header":   "狀態",
+    "show":     "狀態",
+    "label":    "",
+    "case":     "status"
+  },
+  "createAt": {
+    "datatype": "datetime",
+    "header":   "",
+    "show":     "建立時間",
+    "label":    "",
+    "case":     "createAt"
+  },
+  "updateAt": {
+    "datatype": "datetime",
+    "header":   "",
+    "show":     "更新時間",
+    "label":    "",
+    "case":     "updateAt"
+  },
+  "sort": {
+    "datatype": "int(1)",
+    "header":   "排序",
+    "show":     "",
+    "label":    "",
+    "case":     "sort"
+  },
+  "0": "Product",
+  "1": "產品管理",
+  "2": "shopping cart"
+}

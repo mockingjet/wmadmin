@@ -1,0 +1,75 @@
+{
+  "id": {
+    "datatype": "int(10) auto_increment",
+    "header":   "序號",
+    "show":     "",
+    "label":    "",
+    "case":     "null"
+  },
+  "name": {
+    "datatype": "text",
+    "header":   "客戶稱呼",
+    "show":     "客戶稱呼",
+    "label":    "客戶稱呼",
+    "case":     "text"
+  },
+  "sex": {
+    "datatype": "text",
+    "header":   "性別",
+    "show":     "性別",
+    "label":    "性別",
+    "case":     "text"
+  },  
+  "phone": {
+    "datatype": "text",
+    "header":   "聯絡號碼",
+    "show":     "聯絡號碼",
+    "label":    "聯絡號碼",
+    "case":     "text"
+  },  
+  "mail": {
+    "datatype": "text",
+    "header":   "電子信箱",
+    "show":     "電子信箱",
+    "label":    "電子信箱",
+    "case":     "text"
+  },
+  "message": {
+    "datatype": "text",
+    "header":   "留言內容",
+    "show":     "",
+    "label":    "留言內容",
+    "case":     "text"
+  },
+  "status": {
+    "datatype": "int(1)",
+    "header":   "狀態",
+    "show":     "狀態",
+    "label":    "",
+    "case":     "status"
+  },
+  "createAt": {
+    "datatype": "datetime",
+    "header":   "建立時間",
+    "show":     "建立時間",
+    "label":    "",
+    "case":     "createAt"
+  },
+  "updateAt": {
+    "datatype": "datetime",
+    "header":   "",
+    "show":     "更新時間",
+    "label":    "",
+    "case":     "updateAt"
+  },
+  "sort": {
+    "datatype": "int(1)",
+    "header":   "排序",
+    "show":     "",
+    "label":    "",
+    "case":     "sort"
+  },
+  "0": "Contact",
+  "1": "聯絡信件",
+  "2": "address card"
+}
